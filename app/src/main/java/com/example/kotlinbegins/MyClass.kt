@@ -20,8 +20,20 @@ public class MyClass : ClassA()  {
 
             // Declaring Variable
 
-            var a : Int = 7
+//            var a : Int
+//            a = 7
+
+            var a = 7
             var Desg : String = "Android Developers."
+
+            // val and var
+
+            var b = 11
+            b = 13
+
+            val name = "GET"    // val can not be reassigned.similar to final in java.
+
+
 
             println("Hey $Desg lets learn Kotlin.")
         }
